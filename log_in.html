@@ -10,40 +10,53 @@
 </head>
 
 <body>
+    <div class="background"></div>
     <div class="centre">
         <h1>Log in</h1>
         <form>
 
+            <!-- email input area-->
 
             <div class="text-area">
                 <label>Email</label>
-                <input type="email"  id="email">
-                
-                <br>
+                <input type="email" id="email2">
 
+                <br>
+          <!-- password input area -->
             </div>
             <div class="text-area">
                 <label>Password</label>
-                <input type="password"  id="password">
-                
+                <input type="password" id="password2">
+
                 <br>
             </div>
 
+            <!-- checkbox creation -->
             <div>
-               
+
                 <input type="checkbox">Remember me<br><br>
 
             </div>
 
-            <button type="submit" onclick="local()">Log in</button>
+            <!-- submit button creation -->
+            
+            <button type="submit" onclick="loginUser()" id="click">Log in</button>
 
             <p>Forgot password?</p>
 
             <p>Dont have an accont?</p>
 
             <a href="">Sign up</a><br><br>
-            <input type="submit" class="sub">
+
         </form>
+
+        
+    </div>
+
+    <div class="local">
+
+        <input type="text" class="text">
+        input.
     </div>
 
     <script src="main.js"></script>
